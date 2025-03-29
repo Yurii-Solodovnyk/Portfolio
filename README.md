@@ -1,4 +1,4 @@
-## Just a little information about me
+P.S. [Move the mouse over the content of the blocks of LIKES and DISLIKES]## Just a little information about me
 My very own personal website. Basically this is just a resume.
 Well, you may be here for three reasons :smile::
 
