@@ -13,7 +13,12 @@ input[type="range"] {
   width: 110px;
   height: 150px;
   padding: 0;
-  margin: 0 50px 0 20px;
+  margin: 0 50px;
+}
+
+.ava-container {
+  width: 100%;
+  display: flex;
 }
 
 ul > li::before {
@@ -54,6 +59,10 @@ ul > li::before {
   opacity: 1;
 }
 
+.relative {
+  position: relative;
+}
+
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
@@ -70,5 +79,11 @@ ul > li::before {
 @media screen and (min-width: 900px) {
   article {
     padding: 1rem 3rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ava-container {
+    justify-content: center;
   }
 }

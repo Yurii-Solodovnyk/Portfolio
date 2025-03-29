@@ -7,8 +7,5 @@ Well, you may be here for three reasons :smile::
 - Or you just decided to see how others do a similar task :laughing:
 
 Well, anyway, welcome :wink:!
-To make local copy of this repository use
-
-`git clone https://github.com/Yuriy-Solodovnik/homepage.git`
-
-P.S. [Move the mouse over the content of the blocks of LIKES or DISLIKES :sunglasses:]
+To make local copy of this repository use 
+`git clone https://github.com/Yurii-Solodovnyk/homepage.git`
