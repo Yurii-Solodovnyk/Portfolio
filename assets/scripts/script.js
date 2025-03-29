@@ -10,18 +10,6 @@ function changeBackground(color) {
     }
 }
 
-function makeBorderBlue() {
-    document.getElementById('page').style.borderColor = 'blue';
-}
-
-function makeBorderGreen() {
-    document.getElementById('page').style.borderColor = 'green';
-}
-
-function makeBorderYellow() {
-    document.getElementById('page').style.borderColor = 'yellow';
-}
-
 window.onload = changeBackground(3);
 
 document.getElementById('likes').onmouseenter = function () {
