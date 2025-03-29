@@ -8,4 +8,4 @@ Well, you may be here for three reasons :smile::
 
 Well, anyway, welcome :wink:!
 To make local copy of this repository use 
-`git clone https://github.com/Yuriy-Solodovnik/homepage.git`
+`git clone https://github.com/Yurii-Solodovnyk/homepage.git`
