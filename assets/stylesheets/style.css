@@ -88,7 +88,6 @@ p {
 }
 
 .container {
-  min-width: min-content;
   margin: 50px;
   display: grid;
   gap: 10px;
@@ -313,6 +312,31 @@ footer {
 
   .photo-container {
     justify-content: center;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  #theme-toggle {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  #theme-toggle {
+    margin-bottom: 10px;
+  }
+
+  .language {
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+
+  #theme-icon {
+    font-size: 1.5em;
   }
 }
 
