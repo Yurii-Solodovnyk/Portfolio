@@ -2,7 +2,7 @@
   --bg-color: #3f3f3f;
   --text-color: #ffffff;
   --border-color: #333;
-  --highlighted: rgba(167, 167, 167, 0.397);
+  --highlighted: #31303066;
   --link-color: #5ab0f7;
 }
 
@@ -10,7 +10,7 @@
   --bg-color: #ffffff;
   --text-color: #000000;
   --border-color: #ccc;
-  --highlighted: rgba(0, 0, 0, 0.04);
+  --highlighted: #0000000a;
   --link-color: #0000ee;
 }
 
