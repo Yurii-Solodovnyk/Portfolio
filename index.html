@@ -1,7 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Resume on position of Full-Stack Developer"
+    />
     <title data-i18n="resume">Résumé</title>
     <link
       rel="shortcut icon"
@@ -15,15 +21,15 @@
     <main class="container">
       <header>
         <div class="photo-container">
-          <img src="assets/images/photo-no-background.png" alt="Photo" />
+          <img src="assets/images/photo.png" alt="Photo" />
         </div>
         <h1 class="main-info" data-i18n="name">Yurii Solodovnyk</h1>
-        <h4 class="main-info">
+        <h2 class="main-info">
           <span data-i18n="fullStack">Full-Stack</span>
           .NET <span data-i18n="developer">Developer</span>
-        </h4>
+        </h2>
         <ul class="contacts">
-          <li>
+          <li class="no-break">
             <a
               href="https://linkedin.com/in/yurii-solodovnyk"
               rel="author"
@@ -42,7 +48,7 @@
               <span>yurii-solodovnyk</span>
             </a>
           </li>
-          <li>
+          <li class="no-break">
             <a
               href="https://github.com/Yurii-Solodovnyk"
               rel="author"
@@ -61,7 +67,7 @@
               <span>Yurii-Solodovnyk</span>
             </a>
           </li>
-          <li>
+          <li class="no-break">
             <a
               href="https://t.me/fe_n_omen"
               rel="author"
@@ -81,7 +87,7 @@
               <span>yurii_solodovnyk</span>
             </a>
           </li>
-          <li>
+          <li class="no-break">
             <a
               href="mailto:yurii.solodovnyk@gamil.com"
               rel="author"
@@ -100,7 +106,7 @@
               <span>yurii.solodovnyk@gamil.com</span>
             </a>
           </li>
-          <li>
+          <li class="no-break">
             <a
               href="tel:+380505529359"
               rel="author"
@@ -120,8 +126,8 @@
           </li>
         </ul>
       </header>
-      <section class="subheader">
-        <h2 data-i18n="resume">Résumé</h2>
+      <section class="subheader no-break">
+        <h2 class="resume-title" data-i18n="resume">Résumé</h2>
         <p data-i18n="aboutMe">
           Developer with hands-on experience in building and maintaining
           enterprise-level applications using .NET and Angular. I have skills in
@@ -135,9 +141,9 @@
       </section>
       <section class="main">
         <h3 data-i18n="experience">Experience</h3>
-        <h6 data-i18n="now">Now</h6>
+        <h4 data-i18n="now">Now</h4>
         <ul class="timeline">
-          <li class="highlighted">
+          <li class="highlighted no-break">
             <p>
               <em>
                 <span data-i18n="october">October</span>
@@ -180,9 +186,9 @@
             </ul>
           </li>
         </ul>
-        <h6 data-i18n="backThen" class="m-t-md">Back then</h6>
+        <h4 data-i18n="backThen" class="m-t-md">Back then</h4>
         <ul class="timeline">
-          <li class="highlighted">
+          <li class="highlighted no-break">
             <p>
               <em>
                 <span data-i18n="september">September</span> 2022 &ndash;
@@ -235,7 +241,7 @@
               </li>
             </ul>
           </li>
-          <li class="highlighted">
+          <li class="highlighted no-break">
             <p>
               <em>
                 <span data-i18n="june">June</span> &ndash;
@@ -270,7 +276,7 @@
               </li>
             </ul>
           </li>
-          <li class="highlighted">
+          <li class="highlighted no-break">
             <p>
               <em>
                 <span data-i18n="september">September</span>
@@ -328,7 +334,7 @@
               </li>
             </ul>
           </li>
-          <li class="highlighted">
+          <li class="highlighted no-break">
             <p>
               <em>
                 <span data-i18n="september">September</span>
@@ -357,9 +363,9 @@
             </ul>
           </li>
         </ul>
-        <h6 data-i18n="wayBackThen" class="m-t-md">Way back then</h6>
+        <h4 data-i18n="wayBackThen" class="m-t-md">Way back then</h4>
         <ul class="timeline">
-          <li class="highlighted">
+          <li class="highlighted no-break">
             <p>
               <em>
                 <span data-i18n="july">July</span>
@@ -385,7 +391,7 @@
           </li>
         </ul>
       </section>
-      <aside>
+      <section class="skills no-break">
         <h3 data-i18n="skills">Skills</h3>
         <p data-i18n="frontendSkills">
           Frontend: Angular, JavaScript/TypeScript, HTML5/CSS3/SASS.
@@ -398,32 +404,51 @@
           Problem Solving, Time Management, Adaptability, Critical Thinking,
           Attention to Detail, Conflict Resolution
         </p>
-        <h3 data-i18n="character">Character</h3>
-        <p data-i18n="characterTraits">
-          DISCIPLINED CONSCIENTIOUS RATIONAL CONSISTENT CURIOUS LOW-EMOTIONAL
-          CALM STUBBORN COMPETITIVE PROCRASTINATOR RELEVANT
-        </p>
-        <h3><span data-i18n="likes">Likes</span>&#128077;</h3>
-        <p class="switchable" id="likes" data-i18n="likesDescription">
-          GOOD FOOD BAD FOOD FOOTBALL VOLLEYBALL BASKETBALL RUNNING ROCK DOGS
-          TRAVELING FILMS
-        </p>
-        <h3><span data-i18n="dislikes">Dislikes</span>&#128078;</h3>
-        <p class="switchable" id="dislikes" data-i18n="dislikesDescription">
-          ARROGANT PEOPLE INJUSTICE ANNOYANCE BALD CATS DRUGS HYPOCRISY
-        </p>
-        <h3><span data-i18n="wants">Wants</span>&#128523;</h3>
-        <p data-i18n="wantsDescription">
-          START MY OWN SOFTWARE DEVELOPMENT COMPANY, BE A PROFESSIONAL IN MY
-          FIELD, BE A WELL EDUCATED PERSON, FLY TO MARS
-        </p>
+      </section>
+      <aside>
+        <div class="no-break">
+          <h3 data-i18n="character">Character</h3>
+          <p data-i18n="characterTraits">
+            DISCIPLINED CONSCIENTIOUS RATIONAL CONSISTENT CURIOUS LOW-EMOTIONAL
+            CALM STUBBORN COMPETITIVE PROCRASTINATOR RELEVANT
+          </p>
+        </div>
+        <div class="no-break">
+          <h3>
+            <span data-i18n="likes">Likes</span
+            ><span class="screen-only">&#128077;</span>
+          </h3>
+          <p class="switchable" id="likes" data-i18n="likesDescription">
+            GOOD FOOD BAD FOOD FOOTBALL VOLLEYBALL BASKETBALL RUNNING ROCK DOGS
+            TRAVELING FILMS
+          </p>
+        </div>
+        <div class="no-break">
+          <h3>
+            <span data-i18n="dislikes">Dislikes</span
+            ><span class="screen-only">&#128078;</span>
+          </h3>
+          <p class="switchable" id="dislikes" data-i18n="dislikesDescription">
+            ARROGANT PEOPLE INJUSTICE ANNOYANCE BALD CATS DRUGS HYPOCRISY
+          </p>
+        </div>
+        <div class="no-break">
+          <h3>
+            <span data-i18n="wants">Wants</span
+            ><span class="screen-only">&#128523;</span>
+          </h3>
+          <p data-i18n="wantsDescription">
+            START MY OWN SOFTWARE DEVELOPMENT COMPANY, BE A PROFESSIONAL IN MY
+            FIELD, BE A WELL EDUCATED PERSON, FLY TO MARS
+          </p>
+        </div>
         <h3 data-i18n="education">Education</h3>
         <ul class="timeline">
-          <li>
+          <li class="no-break">
             <div><em data-i18n="everyDay">Every day</em></div>
             <p data-i18n="everyDayDescription">Frontend, Backend, English</p>
           </li>
-          <li>
+          <li class="no-break">
             <div>
               <em>
                 <span data-i18n="september">September</span> &ndash;
@@ -443,7 +468,7 @@
               >.
             </div>
           </li>
-          <li>
+          <li class="no-break">
             <div>
               <em>
                 <span data-i18n="september">September</span>
@@ -464,7 +489,7 @@
               >.
             </div>
           </li>
-          <li>
+          <li class="no-break">
             <div>
               <em>
                 <span data-i18n="june">June</span> &ndash;
@@ -485,7 +510,7 @@
               </strong>
             </div>
           </li>
-          <li>
+          <li class="no-break">
             <div>
               <em>
                 <span data-i18n="september">September</span>
@@ -507,7 +532,7 @@
               </strong>
             </div>
           </li>
-          <li>
+          <li class="no-break">
             <div>2003 &ndash; 2007</div>
             <p data-i18n="spentInKindergarten">
               Spent in kindergarten like an ordinary child
@@ -515,7 +540,7 @@
           </li>
         </ul>
         <h3 data-i18n="articles" class="m-t-md">Articles</h3>
-        <p>
+        <p class="no-break">
           <span data-i18n="article1Title">
             SMART LIGHTING CONTROL SYSTEM FOR INDOOR SPACES BASED ON ARDUINO
             UNO, ESP8266 NODEMCU AND HC-SR501 PIR SENSOR
@@ -546,13 +571,28 @@
           <span id="theme-icon">🌙</span>
         </button>
         <p>
-          <a onclick="setLanguage('en')" class="language" lang="en">
+          <a
+            onclick="setLanguage('en')"
+            role="button"
+            class="language"
+            lang="en"
+          >
             <span>&#x1f1fa;&#x1f1f8; ENGLISH</span>
           </a>
-          <a onclick="setLanguage('ua')" class="language" lang="uk">
+          <a
+            onclick="setLanguage('ua')"
+            role="button"
+            class="language"
+            lang="uk"
+          >
             <span>&#x1f1fa;&#x1f1e6; УКРАЇНСЬКА</span>
           </a>
-          <a onclick="setLanguage('ru')" class="language" lang="ru">
+          <a
+            onclick="setLanguage('ru')"
+            role="button"
+            class="language"
+            lang="ru"
+          >
             <span>&#x1f1f7;&#x1f1fa; РУССКИЙ</span>
           </a>
         </p>

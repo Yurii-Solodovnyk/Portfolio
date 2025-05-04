@@ -14,6 +14,7 @@ function setLanguage(lang) {
   if (!translations[lang]) {
     return;
   }
+  document.documentElement.setAttribute('lang', lang);
   localStorage.setItem('lang', lang);
 
   document.querySelectorAll('[data-i18n]').forEach((el) => {
