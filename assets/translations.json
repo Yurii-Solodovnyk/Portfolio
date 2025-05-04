@@ -72,7 +72,8 @@
     "articles": "Articles",
     "article1Title": "SMART LIGHTING CONTROL SYSTEM FOR INDOOR SPACES BASED ON ARDUINO UNO, ESP8266 NODEMCU AND HC-SR501 PIR SENSOR",
     "article1Details": "Published in the proceedings of the XXXV International Internet Conference \"Modern Science\", Leeds, United Kingdom, June 16-17, 2022 — pp. 140-143.",
-    "publishedBy": "Published by:"
+    "publishedBy": "Published by:",
+    "view": "[View]"
   },
   "ua": {
     "name": "Юрій Солодовник",
@@ -146,7 +147,8 @@
     "articles": "Статті",
     "article1Title": "РОЗУМНА СИСТЕМА КЕРУВАННЯ ОСВІТЛЕННЯМ В ПРИМІЩЕНІ НА БАЗІ ARDUINO UNO, ESP8266 NODEMCU ТА ІНФРАЧЕРВОНОГО ДАТЧИКА РУХУ HC-SR501",
     "article1Details": "Опубліковано у збірнику матеріалів XXXV Міжнародної інтернет-конференції «Modern Science», м. Лідс, Велика Британія, 16-17 червня 2022 р. — стор. 140-143.",
-    "publishedBy": "Видавництво:"
+    "publishedBy": "Видавництво:",
+    "view": "[Детальніше]"
   },
   "ru": {
     "name": "Юрий Солодовник",
@@ -218,6 +220,7 @@
     "articles": "Статьи",
     "article1Title": "УМНАЯ СИСТЕМА УПРАВЛЕНИЯ ОСВЕЩЕНИЕМ В ПОМЕЩЕНИИ НА ОСНОВЕ ARDUINO UNO, ESP8266 NODEMCU И ИК-ДАТЧИКА ДВИЖЕНИЯ HC-SR501",
     "article1Details": "Опубликовано в сборнике материалов XXXV Международной интернет-конференции «Modern Science», Лидс, Великобритания, 16-17 июня 2022 г. — стр. 140-143.",
-    "publishedBy": "Издательство:"
+    "publishedBy": "Издательство:",
+    "view": "[Детальнее]"
   }
 }
